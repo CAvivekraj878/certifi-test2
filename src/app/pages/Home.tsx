@@ -15,8 +15,13 @@ const services = [
     icon: Globe,
   },
   {
-    title: 'Laboratory Testing',
+    title: 'NABL Approved And BIS Laboratory Testing',
     description: 'Arranging product testing in BIS recognized laboratories across the country with expedited results.',
+    icon: CheckCircle,
+  },
+   {
+    title: 'ISO Managment System Certification',
+    description: 'globally recognized standard that validates an organization’s commitment to quality, efficiency, and continual improvement in its processes.',
     icon: CheckCircle,
   },
 ];
