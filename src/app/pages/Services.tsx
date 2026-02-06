@@ -82,8 +82,29 @@ export function Services() {
                         </p>
                     </motion.div>
                 </section>
+                {/* Section 3: ISO Managment System Certification */}
+                <section>
+                    <div className="flex items-center gap-4 mb-8">
+                        <div className="p-3 bg-indigo-100 rounded-lg">
+                            <FileText className="w-8 h-8 text-indigo-700" />
+                        </div>
+                        <h2 className="text-3xl font-bold text-gray-900">ISO Managment System Certification</h2>
+                    </div>
 
-                {/* Section 3: New Indian Standards & Amendments */}
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        className="bg-gradient-to-r from-indigo-50 to-blue-50 p-8 rounded-2xl border border-indigo-100"
+                    >
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Electronic Product Registration</h3>
+                        <p className="text-gray-700">
+                            We help organizations achieve ISO Management System Certification</strong>. through guidance, gap analysis, documentation, training, and audit support.
+                        </p>
+                    </motion.div>
+                </section>
+
+
+                {/* Section 4: New Indian Standards & Amendments */}
                 <section>
                     <div className="flex items-center gap-4 mb-8">
                         <div className="p-3 bg-teal-100 rounded-lg">
@@ -209,3 +230,4 @@ export function Services() {
         </div>
     );
 }
+
