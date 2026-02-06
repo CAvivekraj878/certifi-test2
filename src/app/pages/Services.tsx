@@ -103,7 +103,6 @@ export function Services() {
                         </p>
                     </motion.div>
                 </section>
-
                 {/* Section 4: New Indian Standards & Amendments */}
                 <section>
                     <div className="flex items-center gap-4 mb-8">
@@ -230,5 +229,6 @@ export function Services() {
         </div>
     );
 }
+
 
 
