@@ -43,6 +43,7 @@ export function Services() {
                             "BIS (ISI MARK) FOR FOREIGN MANUFACTURERS",
                             "DOMESTIC PRODUCT CERTIFICATION (ISI MARK)",
                             "BIS SCHEME X CERTIFICATION",
+                            "LABORATORY RECOGNITION SCHEME(LRS)",
                             "BIS CERTIFICATE OF CONFORMITY (CoC)",
                             "BIS HALLMARKING"
                         ].map((service, index) => (
@@ -230,6 +231,7 @@ export function Services() {
         </div>
     );
 }
+
 
 
 
