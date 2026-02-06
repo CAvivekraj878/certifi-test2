@@ -56,7 +56,7 @@ export function About() {
                     </div>
                     <h2 className="text-white text-2xl font-bold">Mr. Akshay Kumar Sharma</h2>
                     <p className="text-blue-100 font-medium">Founder & CEO</p>
-                    <p className="text-blue-100 font-medium">Ex. Asst. Director ( BIS)</p>
+                    <p className="text-blue-100 font-medium">Ex. Deputy Director General ( BIS)</p>
 
 
                     <div className="flex gap-4 mt-4 pt-4 border-t border-blue-700/50">
@@ -85,7 +85,7 @@ export function About() {
 
               <div className="prose prose-lg text-gray-600 space-y-6">
                 <p>
-                  With over 15 years of deep-dive experience in Indian regulatory frameworks, Mr. Akshay Kumar Sharma has become a cornerstone for businesses aiming to enter the Indian market. His journey began as a Quality Control Engineer, where he witnessed firsthand the struggles manufacturers faced with obscure regulations.
+                  With over 45 years of deep-dive experience in Indian regulatory frameworks, Mr. Akshay Kumar Sharma has become a cornerstone for businesses aiming to enter the Indian market. His journey began as a Quality Control Engineer, where he witnessed firsthand the struggles manufacturers faced with obscure regulations.
                 </p>
                 <p>
                   He established Certifi.in Advisers with a radical approach: <strong>Demystify the process</strong>. He believes that every business, regardless of size, deserves a clear path to market access.
