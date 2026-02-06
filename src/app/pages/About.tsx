@@ -56,7 +56,7 @@ export function About() {
                     </div>
                     <h2 className="text-white text-2xl font-bold">Mr. Akshay Kumar Sharma</h2>
                     <p className="text-blue-100 font-medium">Founder & CEO</p>
-                    <p className="text-blue-100 font-medium">Ex. Deputy Director General ( BIS)</p>
+                    <p className="text-blue-100 font-medium">Ex. Deputy Director General (BIS)</p>
 
 
                     <div className="flex gap-4 mt-4 pt-4 border-t border-blue-700/50">
