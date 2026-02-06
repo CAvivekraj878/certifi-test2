@@ -82,6 +82,7 @@ export function Services() {
                         </p>
                     </motion.div>
                 </section>
+                
                 {/* Section 3: ISO Managment System Certification */}
                 <section>
                     <div className="flex items-center gap-4 mb-8">
@@ -102,7 +103,6 @@ export function Services() {
                         </p>
                     </motion.div>
                 </section>
-
 
                 {/* Section 4: New Indian Standards & Amendments */}
                 <section>
@@ -230,4 +230,5 @@ export function Services() {
         </div>
     );
 }
+
 
