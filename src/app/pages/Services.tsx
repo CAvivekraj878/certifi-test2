@@ -99,10 +99,11 @@ export function Services() {
                     >
                         <h3 className="text-xl font-bold text-gray-900 mb-2">Electronic Product Registration</h3>
                         <p className="text-gray-700">
-                            We help organizations achieve ISO Management System Certification</strong>. through guidance, gap analysis, documentation, training, and audit support.
+                            We help organizations achieve ISO Management System Certification through guidance, gap analysis, documentation, training, and audit support.
                         </p>
                     </motion.div>
                 </section>
+                
                 {/* Section 4: New Indian Standards & Amendments */}
                 <section>
                     <div className="flex items-center gap-4 mb-8">
@@ -229,6 +230,7 @@ export function Services() {
         </div>
     );
 }
+
 
 
 
