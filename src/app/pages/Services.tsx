@@ -98,7 +98,7 @@ export function Services() {
                         whileInView={{ opacity: 1, scale: 1 }}
                         className="bg-gradient-to-r from-indigo-50 to-blue-50 p-8 rounded-2xl border border-indigo-100"
                     >
-                        <h3 className="text-xl font-bold text-gray-900 mb-2">Electronic Product Registration</h3>
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Managment System Certifications</h3>
                         <p className="text-gray-700">
                             We help organizations achieve ISO Management System Certification through guidance, gap analysis, documentation, training, and audit support.
                         </p>
@@ -231,6 +231,7 @@ export function Services() {
         </div>
     );
 }
+
 
 
 
