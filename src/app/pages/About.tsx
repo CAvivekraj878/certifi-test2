@@ -54,7 +54,7 @@ export function About() {
                       <BadgeCheck className="w-5 h-5 text-blue-400" />
                       <span className="text-blue-200 text-sm font-semibold tracking-wider uppercase">Certified Expert</span>
                     </div>
-                    <h2 className="text-white text-3xl font-bold">Mr. Akshay Kumar Sharma</h2>
+                    <h2 className="text-white text-2xl font-bold">Mr. Akshay Kumar Sharma</h2>
                     <p className="text-blue-100 font-medium">Founder & CEO</p>
                     <p className="text-blue-100 font-medium">Ex. Asst. Director ( BIS)</p>
 
