@@ -5,9 +5,23 @@ import { Send, CheckCircle2, Loader2 } from 'lucide-react';
 export function Enquiry() {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [phone, setPhone] = useState('');
+
+  const handlePhoneChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const value = e.target.value.replace(/\D/g, ''); // Remove non-numeric characters
+    if (value.length <= 10) {
+      setPhone(value);
+    }
+  };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
+    if (phone.length !== 10) {
+      alert("Please enter a valid 10-digit phone number.");
+      return;
+    }
+
     setLoading(true);
 
     const formData = new FormData(e.currentTarget);
@@ -15,7 +29,7 @@ export function Enquiry() {
 
     const queryString = new URLSearchParams();
     queryString.append('entry.2005620554', formData.get('name') as string);
-    queryString.append('entry.1166974658', formData.get('phone') as string);
+    queryString.append('entry.1166974658', phone); // Use the state value
     queryString.append('entry.1045781291', formData.get('email') as string);
     queryString.append('entry.1065046570', formData.get('service') as string);
     queryString.append('entry.839337160', formData.get('message') as string);
@@ -57,7 +71,10 @@ export function Enquiry() {
               Thank you for contacting us. Our team will review your request and get back to you within 24 hours.
             </p>
             <button
-              onClick={() => setSubmitted(false)}
+              onClick={() => {
+                setSubmitted(false);
+                setPhone('');
+              }}
               className="w-full py-3 px-4 bg-blue-700 hover:bg-blue-800 text-white rounded-xl font-bold transition-all shadow-lg hover:shadow-blue-200"
             >
               Submit Another Enquiry
@@ -131,8 +148,12 @@ export function Enquiry() {
                   name="phone"
                   type="tel"
                   required
+                  value={phone}
+                  onChange={handlePhoneChange}
+                  pattern="[0-9]{10}"
+                  maxLength={10}
                   className="block w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                  placeholder="+91 98765 43210"
+                  placeholder="10-digit number"
                 />
               </div>
             </div>
